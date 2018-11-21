@@ -22,7 +22,7 @@ async def on_message(message):
 async def on_message(message):
     if 'poll' in message.content:
         #emoji = get(client.get_all_emojis(), name='<U0001f36a>')
-        await client.add_reaction(message,  u"\U0001F36A")
+        await client.add_reaction(message,  "unicode token for emoji")
         
 client.run("bot token here")
 
