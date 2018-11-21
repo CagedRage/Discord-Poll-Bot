@@ -24,5 +24,5 @@ async def on_message(message):
         #emoji = get(client.get_all_emojis(), name='<U0001f36a>')
         await client.add_reaction(message,  u"\U0001F36A")
         
-client.run("NDkyOTMxNDkwNjIwMTEyODk3.DtZ9YA.BB8K8MesZ730YOSfu8cBvmzum74")
+client.run("bot token here")
 
